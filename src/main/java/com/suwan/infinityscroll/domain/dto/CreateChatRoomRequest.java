@@ -8,7 +8,7 @@ import lombok.Getter;
 @Getter
 public class CreateChatRoomRequest {
 
-  private String roomMakerId;
-  private String guestId;
+  private String roomMakerUsername;
+  private String guestUsername;
 
 }

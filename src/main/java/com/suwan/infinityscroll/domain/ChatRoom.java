@@ -30,7 +30,7 @@ public class ChatRoom {
   @JoinColumn(name = "lastChatMessageId")
   private ChatMessage lastChatMessage;
 
-  @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+  @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
   @JoinTable(name = "ChatRoom_Members",
           joinColumns = @JoinColumn(name = "chatRoomId"),
           inverseJoinColumns = @JoinColumn(name = "userId"))
