@@ -1,4 +1,4 @@
-package com.suwan.infinityscroll.controller;
+package com.suwan.infinityscroll.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
